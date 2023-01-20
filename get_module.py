@@ -1,7 +1,8 @@
+# Importar librerias
 import requests
 import json
 
-#De un url crea un diccionario
+# De un url crea un diccionario
 def get_info(url):
     """
     Toma una URL como argumento y utiliza el módulo requests para hacer una solicitud GET a esa URL.

@@ -1,17 +1,17 @@
-#Abrir archivo que contiene los nombres de pokemones
+# Abrir archivo que contiene los nombres de pokemones
 with open("pokemon_list.txt", "r") as f:
     pokemon_lista = f.readlines()
 
 
 
-#Crea una lista con los nombre de los pokemones
+# Crea una lista con los nombre de los pokemones
 pokemon_lista = [elemento.strip('\n') for elemento in pokemon_lista]
 # import data as d
 # print(pokemon_lista)
 
 
 
-#Valida si el nombre escrito por el usuario se encuentra dentro de la lista de nom,bre de pokemones.
+# Valida si el nombre escrito por el usuario se encuentra dentro de la lista de nom,bre de pokemones.
 def validate(name, p_l = pokemon_lista, mensaje = "\nError, Pokémon no válido.\nIngrese un nombre de Pokémon válido: "):
     """
     Validación de pokemon

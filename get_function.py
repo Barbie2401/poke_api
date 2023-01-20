@@ -1,10 +1,10 @@
 ######## Funciones ########
 import html_data
 
-#Funciones que se llamarán en el codigo:
+# Funciones que se llamarán en el codigo:
 
 
-#De varias listas, la transforma a una lista plana que contiene todos los elementos de las sublistas anidadas.
+# De varias listas, la transforma a una lista plana que contiene todos los elementos de las sublistas anidadas.
 def flatten(t):
     """
     Esta función toma una lista de listas 
@@ -24,7 +24,7 @@ def flatten(t):
 
 
 
-#Traductor de lista ingles a español   
+# Traductor de lista ingles a español   
 def en_to_es_list(l):
     """ Traduce los elementos de una lista de ingles a español
 
@@ -35,11 +35,11 @@ def en_to_es_list(l):
     """
     translated = []
 
-    #recorrer cada elemento de la lista original
+    # Recorrer cada elemento de la lista original
     for to_translate in l:
-        # agrega el valor traducido a una nueva lista llamada translated
+        # Agrega el valor traducido a una nueva lista llamada translated
         translated.append(html_data.tipos_es[to_translate])
-    #Restorna la lista con los elementos traducidos
+    # Retorna la lista con los elementos traducidos
     return translated
 
 
