@@ -1,0 +1,6 @@
+Para abrir la pokedex usted debe abrir desde 'simbolo de sistema', dirigirse a donde descargó los archivos.
+
+Posteriormente escribir el siguiente comando en la consola:
+"python main_menu.py"
+
+Siga las instrucciones que aparecen en la consola.
