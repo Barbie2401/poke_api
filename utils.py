@@ -1,5 +1,7 @@
+# Mensajes que se le entregan al usuario
 
 validacion_pokemon = 'Por favor ingrese un nombre válido de algún Pokémon'
+
 validacion_opcion = 'Por favor ingrese una opción válida:  '
 
 mensaje_opcion = '''        ------ Bienvenido a la PokeApp ------
