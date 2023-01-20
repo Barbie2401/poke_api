@@ -1,6 +1,9 @@
 import requests
 import json
 
+
+
+#asdasd
 def fetch_pokemon(name):
     dicc={}
     for key in ["pokemon", "pokemon-species"]:
